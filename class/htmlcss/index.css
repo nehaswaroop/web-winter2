@@ -1,0 +1,75 @@
+/** {
+                font-size: 32px;
+            }*/
+
+#first-h1 {
+	color: blue;
+}
+#text-orange {
+	color: orange !important;
+}
+
+.text-red {
+	color: red !important;
+}
+
+.text-green {
+	color: green !important;
+}
+
+p.pink-text {
+	color: pink;
+}
+
+/*h1{
+    color: red;
+    }*/
+
+/*
+div > p{
+        color:yellow;
+        }
+            
+ul > div{
+        color: blue;
+        }
+*/
+
+ul p {
+	color: green;
+}
+
+ul > p {
+	color: brown;
+}
+
+h1 + h2 {
+	color: yellow;
+}
+
+table {
+	border-collapse: collapse;
+	/*width: 250px; 250px is a static unit*/
+	width: 50%; /* 50% is a relative unit*/
+}
+
+th,
+td {
+	border: 1px solid black;
+}
+
+ul {
+	list-style: none;
+}
+
+ol {
+	list-style: upper-roman;
+}
+
+.box1 {
+	border: 10px solid black;
+	/*height: 50px;
+	width: 50px;*/
+	padding: 20px;
+	margin-bottom: 15px;
+}

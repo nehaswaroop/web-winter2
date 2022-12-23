@@ -103,3 +103,27 @@ ol {
 	position: sticky;
 	top: 0px;
 }
+
+.flex-container {
+	display: flex;
+	/*flex-direction: column-reverse;*/
+	width: 500px;
+	height: 500px;
+	background-color: aquamarine;
+	flex-wrap: wrap;
+}
+
+.flex-child {
+	width: 100px;
+	height: 100px;
+	background-color: blueviolet;
+	border: 1px solid black;
+	display: flex;
+}
+
+.flex-gc {
+	width: 25px;
+	height: 25px;
+	background-color: brown;
+	border: 1px solid black;
+}

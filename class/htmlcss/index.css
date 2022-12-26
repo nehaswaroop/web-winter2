@@ -119,6 +119,8 @@ ol {
 	background-color: blueviolet;
 	border: 1px solid black;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .flex-gc {
@@ -126,4 +128,35 @@ ol {
 	height: 25px;
 	background-color: brown;
 	border: 1px solid black;
+}
+
+a:link {
+	color: green;
+}
+
+/* visited link */
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: burlywood;
+}
+
+ul > li:nth-child(n + 3) {
+	background-color: blueviolet;
+	color: white;
+}
+
+.transition-box {
+	width: 100px;
+	height: 100px;
+	background-color: aquamarine;
+	transition: width 3s, height 5s;
+}
+
+.transition-box:hover {
+	width: 300px;
+	height: 500px;
+	transform: rotate(45deg);
 }

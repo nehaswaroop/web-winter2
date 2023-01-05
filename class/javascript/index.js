@@ -33,21 +33,29 @@ console.log(divide(10, 2));
 function divide(a, b) {
 	return a / b;
 }
+console.log(fish);
+var fish = "goldfish";
+console.log(fish);
+
+//console.log(car);
+let car = "subaru";
+console.log(car);
 
 //power(2, 8);
 //const power = (a, b) => {
-//	return a * b;
+//return a * b;
 //};
-sub(10, 5);
-var sub = (a, b) => {
-	return a - b;
-};
+//sub(10, 5);
+//var sub = (a, b) => {
+//return a - b;
+//};
+/*var add3;
 add3(10, 5, 6);
 var add3 = function (a, b, c) {
 	return a + b + c;
-};
+};*/
 
-add3(10, 5, 6);
-let add3 = function (a, b, c) {
-	return a + b + c;
+add3(10, 5, 6, 7);
+let add3 = function (a, b, c, d) {
+	return a + b + c + d;
 };

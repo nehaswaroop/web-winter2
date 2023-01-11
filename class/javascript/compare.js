@@ -1,17 +1,20 @@
 let a = 5;
 let b = a;
 let c = 5;
-console.log(a === b);
-console.log(b === c);
+//console.log(a === b);
+//console.log(b === c);
 //a = 10;
 
-console.log(a === b);
+//console.log(a === b);
 
-let arrA = [a];
+let arrA = [5];
 let arrB = arrA;
-let arrC = [a];
+let arrC = [5];
 
-//onsole.log(arrA);
+//console.log(arrA);
 //console.log(arrB);
 //console.log(arrC);
-arrA = [a, 100];
+//arrB.push(100);
+//onsole.log(arrA === arrB);
+//console.log(arrA);
+//console.log(arrB);

@@ -32,3 +32,19 @@ function concatFunction(a, b) {
 	return a.concat(b);
 }
 console.log(concatFunction("cat", " dog"));
+
+function numEven(num) {
+	if (num % 2 === 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(numEven(50));
+
+const arrD = [5, true, false, {}, [100, 500, "a"], ["a", [550, 888]]];
+const luckyNumber = arrD[5][1][1];
+arrD[5][1][1] = 777;
+console.log(arrD);
+console.log(Boolean(" "));

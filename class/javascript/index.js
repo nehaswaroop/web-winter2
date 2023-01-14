@@ -55,7 +55,11 @@ var add3 = function (a, b, c) {
 	return a + b + c;
 };*/
 
-add3(10, 5, 6, 7);
-let add3 = function (a, b, c, d) {
-	return a + b + c + d;
-};
+//add3(10, 5, 6, 7);
+//let add3 = function (a, b, c, d) {
+//return a + b + c + d;
+//};
+
+const message = "    TASTE THE RAINBOW!  ";
+const whisper = message;
+console.log(whisper.toLowerCase().trim());

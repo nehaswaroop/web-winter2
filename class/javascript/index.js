@@ -60,6 +60,10 @@ var add3 = function (a, b, c) {
 //return a + b + c + d;
 //};
 
-const message = "    TASTE THE RAINBOW!  ";
-const whisper = message;
-console.log(whisper.toLowerCase().trim());
+// const message = "    TASTE THE RAINBOW!  ";
+// const whisper = message;
+// console.log(whisper.toLowerCase().trim());
+
+// const word = "skateboard";
+// const facialHair = word.slice(5, 10);
+// console.log(facialHair.replace("o", "e"));

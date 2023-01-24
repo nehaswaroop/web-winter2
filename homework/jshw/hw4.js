@@ -15,14 +15,14 @@
 // }
 // console.log(qualifyDiscount(2));
 
-// function betweenNumbers(num1, num2) {
-// 	let arr = [];
-// 	while (num1 <= num2) {
-// 		arr.push(num1++);
-// 	}
-// 	return arr;
-// }
-// console.log(betweenNumbers(1, 10));
+function betweenNumbers(num1, num2) {
+	let arr = [];
+	while (num1 <= num2) {
+		arr.push(num1++);
+	}
+	return arr;
+}
+console.log(betweenNumbers(3, 116));
 
 // const myObject = {
 // 	name: "jack",
@@ -61,18 +61,20 @@
 // 	}
 // }
 
-// console.log(maxAmtProfit([1000, 315, 50, 800, 314, 45, 100, 648, 684, 132, 700, 98, 45]));
+// console.log(maxAmtProfit([315, 50, 314, 684, 100, 648, 132, 50, 98, 45]));
 
-function maximumProfit(array) {
-	let maxProfit = -1,
-		lowPrice = array[0];
-	for (let i = 0; i < array.length; i++) {
-		if (array[i] > lowPrice) {
-			maxProfit = Math.max(maxProfit, array[i] - lowPrice);
-		} else {
-			lowPrice = array[i];
-		}
-	}
-	return maxProfit;
-}
-console.log(maximumProfit([315, 50, 700, 684, 100, 648, 132, 50, 98, 45]));
+// function maximumProfit(array) {
+// 	let maxProfit = -1,
+// 		lowPrice = array[0];
+// 	for (let i = 0; i < array.length; i++) {
+// 		if (array[i] > lowPrice) {
+// 			maxProfit = Math.max(maxProfit, array[i] - lowPrice);
+// 		} else {
+// 			lowPrice = array[i];
+// 		}
+// 	}
+// 	return maxProfit;
+// }
+// console.log(maximumProfit([315, 50, 700, 684, 100, 648, 132, 50, 98, 45]));
+
+// console.log(maximumProfit([315, 50, 200, 40, 140]));

@@ -15,14 +15,14 @@
 // }
 // console.log(qualifyDiscount(2));
 
-function betweenNumbers(num1, num2) {
-	let arr = [];
-	while (num1 <= num2) {
-		arr.push(num1++);
-	}
-	return arr;
-}
-console.log(betweenNumbers(3, 116));
+// function betweenNumbers(num1, num2) {
+// 	let arr = [];
+// 	while (num1 <= num2) {
+// 		arr.push(num1++);
+// 	}
+// 	return arr;
+// }
+// console.log(betweenNumbers(3, 116));
 
 // const myObject = {
 // 	name: "jack",

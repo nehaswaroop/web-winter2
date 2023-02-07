@@ -39,4 +39,4 @@ class Bird {
 }
 
 const sparrow = new Bird("Bird", "Sparrow", "Brown", 2);
-console.log(sparrow.getName());
+console.log(sparrow);

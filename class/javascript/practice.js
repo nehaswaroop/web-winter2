@@ -89,7 +89,8 @@ class Dog extends Animal {
 }
 
 const spot = new Dog("Dog", "Spot", "Golden", "Golden Retriever");
-spot.greet();
-console.log(spot.getName());
-console.log(spot.getColor());
-console.log(spot.getBreed());
+console.log(spot);
+// spot.greet();
+// console.log(spot.getName());
+// console.log(spot.getColor());
+// console.log(spot.getBreed());

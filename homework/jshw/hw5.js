@@ -16,17 +16,27 @@ const deer = new Animal("Brown", "Brown");
 
 console.log(lion);
 
-function Bird(name, color, eyes) {
-	this.name = name;
-	this.color = color;
-	this.eyes = eyes;
-	this.legs = 2;
-	this.eat = function () {
-		return true;
-	};
-	this.sleep = function () {
-		return true;
-	};
+class Bird {
+	type;
+	#name;
+	color;
+	eyes;
+
+	constructor(type, name, color, eyes) {
+		this.type = type;
+		this.#name = name;
+		this.color = color;
+		this.eyes = eyes;
+	}
+
+	getName() {
+		return this.#name;
+	}
+
+	setName(newName) {
+		this.#name = newName;
+	}
 }
 
-const sparrow = new Bird("");
+const sparrow = new Bird("Bird", "Sparrow", "Brown", 2);
+console.log(sparrow.getName());

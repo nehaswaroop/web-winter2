@@ -130,11 +130,26 @@ var add3 = function (a, b, c) {
 // }
 // console.log(generateFib(3));
 
-function filterFib(n) {
-	let array = [0, 1];
-	for (let i = 2; i < n + 1; i++) {
-		array.push(array[i - 2] + array[i - 1]);
-	}
-	return array;
+// function filterFib(n) {
+// 	let array = [0, 1];
+// 	for (let i = 2; i < n + 1; i++) {
+// 		array.push(array[i - 2] + array[i - 1]);
+// 	}
+// 	return array;
+// }
+// console.log(filterFib(10));
+
+function restParams(...args) {
+	console.log(args.reduce((accum, curr) => accum * curr, 1));
 }
-console.log(filterFib(10));
+restParams(1, 4, 5, 8, 9, 7, 6, 3, 4, 5, 4, 8);
+
+const multiply1 = (...nums) => {
+	return nums.reduce((accum, curr) => accum * curr, 1);
+};
+console.log(multiply1(1, 2, 3, 4, 5, 6, 7));
+
+const multiply = (a = 0, b = 0) => {
+	return a * b;
+};
+console.log(multiply());

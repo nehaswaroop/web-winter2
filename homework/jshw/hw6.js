@@ -80,3 +80,10 @@ console.log(buildingObj.getNumWalls());
 
 const gymObj = new Gym("Fitness24", true);
 const bankObj = new Bank("100", 20, "City Bank");
+
+const arr = [100, 200];
+const arrB = [1, 2, [44, 55]];
+const z = [...arr, ...arrB];
+z[2] = 10000;
+console.log(z);
+console.log(arrB);
